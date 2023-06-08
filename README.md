@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Project Description: add items(tasks) to a list and manipulate them(delete, update, mark as done)
 
-## Getting Started
+1. Type in input any task you want to add to the list , and add button will appear. when you click on it, the task will be added to the list.
 
-First, run the development server:
+2. You can delete any task by clicking on the delete button next to it when hovering over the task.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+3. You can mark any task as done by clicking on the check circle next to it.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. You can update any task by clicking on the name of the task and start typing.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+5. You can filter the tasks by clicking on the filter buttons at the bottom of the page.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+6. You can clear the list by clicking on the clear button at the bottom of the page.
 
-## Learn More
+7. You can mark all tasks as done by clicking on the mark all button at the top of the page.
 
-To learn more about Next.js, take a look at the following resources:
+to get the desired result i have used useState hook to store the tasks in an array and manipulate them.
+useMemo hook to filter the tasks. further optimisations and improvements can be done but i have tried to 
+finish it fast, keep it simple and clean.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+thanks for your time and consideration. Luka.
